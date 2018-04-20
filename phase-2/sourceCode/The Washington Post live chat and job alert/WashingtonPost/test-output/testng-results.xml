@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="37296" started-at="2016-04-17T17:53:54Z" finished-at="2016-04-17T17:54:31Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="37296" started-at="2016-04-17T17:53:54Z" finished-at="2016-04-17T17:54:31Z">
+      <class name="washingtonposttest.JobAlert">
+        <test-method status="PASS" signature="setup()[pri:0, instance:washingtonposttest.JobAlert@d59067]" name="setup" is-config="true" duration-ms="37399" started-at="2016-04-17T19:53:17Z" finished-at="2016-04-17T19:53:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:washingtonposttest.JobAlert@d59067]" name="beforeMethod" is-config="true" duration-ms="136" started-at="2016-04-17T19:53:54Z" finished-at="2016-04-17T19:53:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="JobAlertMain()[pri:0, instance:washingtonposttest.JobAlert@d59067]" name="JobAlertMain" duration-ms="37126" started-at="2016-04-17T19:53:54Z" finished-at="2016-04-17T19:54:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- JobAlertMain -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:washingtonposttest.JobAlert@d59067]" name="tearDown" is-config="true" duration-ms="2242" started-at="2016-04-17T19:54:31Z" finished-at="2016-04-17T19:54:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- washingtonposttest.JobAlert -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

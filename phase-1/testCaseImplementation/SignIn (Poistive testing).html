@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="https://www.washingtonpost.com/" />
+<title>signIn</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">signIn</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=span.username</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=qa-btn-loginWP</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=(//input[@id='login'])[4]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>xpath=(//input[@id='login'])[4]</td>
+	<td>lobnabue@gmail.com</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>xpath=(//input[@id='password'])[4]</td>
+	<td>mohab2661992</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=(//button[@type='submit'])[13]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>css=div.col-sm-6 &gt; div.container-default &gt; form[name=&quot;wpIdntSignInForm&quot;] &gt; div.signed-in-text.form-overlay</td>
+	<td></td>
+</tr>
+
+</tbody></table>
+</body>
+</html>
